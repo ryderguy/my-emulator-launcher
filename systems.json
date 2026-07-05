@@ -1,0 +1,245 @@
+{
+  "systems": [
+    {
+      "name": "Nintendo Entertainment System",
+      "short_name": "nes",
+      "rom_dir": "~/RetroGames/nes",
+      "extensions": [
+        "nes",
+        "zip"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/fceumm_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/nes.png",
+      "icon_url": ""
+    },
+    {
+      "name": "Super Nintendo",
+      "short_name": "snes",
+      "rom_dir": "~/RetroGames/snes",
+      "extensions": [
+        "sfc",
+        "smc",
+        "zip"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/mednafen_supafaust_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/snes.png",
+      "icon_url": ""
+    },
+    {
+      "name": "Game Boy Advance",
+      "short_name": "gba",
+      "rom_dir": "~/RetroGames/gba",
+      "extensions": [
+        "gba",
+        "zip"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/gpsp_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/gba.png",
+      "icon_url": ""
+    },
+    {
+      "name": "Game Boy / Color",
+      "short_name": "gb",
+      "rom_dir": "~/RetroGames/gb",
+      "extensions": [
+        "gb",
+        "gbc",
+        "zip"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/DoubleCherryGB_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/gb.png",
+      "icon_url": ""
+    },
+    {
+      "name": "PlayStation",
+      "short_name": "ps1",
+      "rom_dir": "~/RetroGames/ps1",
+      "extensions": [
+        "cue",
+        "bin",
+        "chd",
+        "pbp"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/mednafen_psx_hw_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/ps1.png",
+      "icon_url": ""
+    },
+    {
+      "name": "PlayStation 2",
+      "short_name": "ps2",
+      "rom_dir": "~/RetroGames/ps2",
+      "extensions": [
+        "iso",
+        "chd"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/pcsx2_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/ps2.png",
+      "icon_url": ""
+    },
+    {
+      "name": "Nintendo 64",
+      "short_name": "n64",
+      "rom_dir": "~/RetroGames/n64",
+      "extensions": [
+        "n64",
+        "z64"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/mupen64plus_next_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/n64.png",
+      "icon_url": ""
+    },
+    {
+      "name": "Sega Dreamcast",
+      "short_name": "dreamcast",
+      "rom_dir": "~/RetroGames/dreamcast",
+      "extensions": [
+        "cdi",
+        "gdi",
+        "chd"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/flycast_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/dreamcast.png",
+      "icon_url": ""
+    },
+    {
+      "name": "Nintendo 3DS",
+      "short_name": "3ds",
+      "rom_dir": "~/RetroGames/3ds",
+      "extensions": [
+        "3ds",
+        "cia"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/citra2018_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/3ds.png",
+      "icon_url": ""
+    },
+    {
+      "name": "Pokemon Mini",
+      "short_name": "pokemini",
+      "rom_dir": "~/RetroGames/pokemini",
+      "extensions": [
+        "min"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/pokemini_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/pokemini.png",
+      "icon_url": ""
+    },
+    {
+      "name": "Doom",
+      "short_name": "doom",
+      "rom_dir": "~/RetroGames/doom",
+      "extensions": [
+        "wad"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/prboom_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/doom.png",
+      "icon_url": ""
+    },
+    {
+      "name": "PICO-8",
+      "short_name": "pico8",
+      "rom_dir": "~/RetroGames/pico8",
+      "extensions": [
+        "p8",
+        "png"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/retro8_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/pico8.png",
+      "icon_url": ""
+    },
+    {
+      "name": "TIC-80",
+      "short_name": "tic80",
+      "rom_dir": "~/RetroGames/tic80",
+      "extensions": [
+        "tic"
+      ],
+      "flatpak_id": "org.libretro.RetroArch",
+      "launch_args": [
+        "-L",
+        "~/.var/app/org.libretro.RetroArch/config/retroarch/cores/tic80_libretro.so",
+        "{rom}"
+      ],
+      "icon": "res://art/tic80.png",
+      "icon_url": ""
+    },
+    {
+      "name": "Nintendo GameCube",
+      "short_name": "gamecube",
+      "rom_dir": "~/RetroGames/gamecube",
+      "extensions": [
+        "iso",
+        "rvz",
+        "gcm"
+      ],
+      "flatpak_id": "org.DolphinEmu.dolphin-emu",
+      "launch_args": [
+        "-b",
+        "-e",
+        "{rom}"
+      ],
+      "icon": "res://art/gamecube.png",
+      "icon_url": ""
+    }
+  ]
+}
