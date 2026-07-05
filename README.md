@@ -24,15 +24,15 @@ all you need is -b -e {roms} batch mode run the exit on close its  already setup
 # copying roms 
 by defult the exaple uses ~/RetroGames/<system>/ create this folderand drop your roms in it.
 
-#store ill add it to.
+# store ill add it to.
  snapstore(not on it rn becuse its down)
  if wanted i can add it to others 
  
- #how to customize background colors 
+ # how to customize background colors 
 
 press o for the options menu/settings (dosent work shows the menu on the very left and makes it unusable i wil fix later)
 
-#what im going to add 
+# what im going to add 
 1.box art/metadata
 2. new ui/better ui 
 3. recently played/favorite tabs 
