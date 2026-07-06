@@ -27,8 +27,11 @@ by defult the exaple uses ~/RetroGames/<system>/ create this folderand drop your
 # store ill add it to.
  snapstore(not on it rn becuse its down)
  if wanted i can add it to others 
- 
- # how to customize background colors 
+
+# game stores its in
+1.itch.io (https://rydeguy111.itch.io/retro-laucnher)
+
+# how to customize background colors 
 
 press o for the options menu/settings 
 # what im going to add 
