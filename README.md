@@ -30,8 +30,7 @@ by defult the exaple uses ~/RetroGames/<system>/ create this folderand drop your
  
  # how to customize background colors 
 
-press o for the options menu/settings (dosent work shows the menu on the very left and makes it unusable i wil fix later)
-
+press o for the options menu/settings 
 # what im going to add 
 1.box art/metadata
 2. new ui/better ui 
@@ -39,5 +38,11 @@ press o for the options menu/settings (dosent work shows the menu on the very le
 4. controller buttion icon
 # all this is above slot into libary.gd data and main.gd/main.tscn
 
+# bug fixs
+1.option menu being off the screen
+
+# bugs 
+1. option menu not usable with keybored/not being abled to scroll down
+2. add console/roms option not working 
 
 
