@@ -1,6 +1,7 @@
 # my-emulator-launcher
 i emulator launcher i have been working on in my free time.
 what this emulator dosent come with retroarch, dolpin, switch emulators, roms and cores this need to be added later.
+also new to github dont know how to add a file bigger then 20mbs so there isnt any files there 
 
 # whats needed to install (all needed to be installed from flathub)
 flathub https://flathub.org/en/setup
